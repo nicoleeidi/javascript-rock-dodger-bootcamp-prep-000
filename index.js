@@ -175,7 +175,7 @@ function moveDodgerRight() {
 
     if (left<357) {
       DODGER.style.left=`${left+4}px`
-      window.requestAnimationFrame(step)
+      //window.requestAnimationFrame(step)
     }
 
   }
